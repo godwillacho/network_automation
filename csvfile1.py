@@ -1,5 +1,5 @@
 import csv
-with open('airtravel.csv')as f:
+with open('data1/airtravel.csv')as f:
     reader=csv.reader(f)
     next(reader)
     for row in reader:
@@ -8,7 +8,7 @@ with open('airtravel.csv')as f:
 #to display a particular row in the file the index of the elementr in that row can be inserted into the row object to be printed
 
 # creating script to calculate the busiest month of the year 1958
-with open('airtravel.csv')as f:
+with open('data1/airtravel.csv')as f:
     reader=csv.reader(f)
     next(reader)
     busiest_month = dict()
