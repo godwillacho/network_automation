@@ -1,0 +1,17 @@
+# Device lists and backups can contain hostnames, IPs and password hashes
+network/devices.txt
+network/backups/
+*_20*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

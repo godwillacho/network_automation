@@ -4,7 +4,7 @@ from getpass import getpass
 
 hostname ="192.168.137.120"
 username =input('Enter the username ') or "admin"
-password= getpass(f'\U0001F511 enter password for the user {username}:') or 'admin'
+password= getpass(f'\U0001F511 enter password for the user {username}:')
 
 ssh_client=client.SSHClient()
 ssh_client.set_missing_host_key_policy(client.AutoAddPolicy())

@@ -5,8 +5,8 @@ from getpass import getpass
 
 # server credentials
 hostname="192.168.137.120"
-username=input('enter the username: ') or 'admin'
-password=getpass(f'enter the password for {username}:') or 'admin' 
+username=input('enter the username: ')
+password=getpass(f'enter the password for {username}:')
 
 # cli interface commands 
 commands =['config t','int lo1001','ip address 1.1.1.1 255.255.255.0','end']
